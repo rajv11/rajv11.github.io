@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+} 
+.round{
+    width:200px;
+    height: 200px;
+}
+
+body {
+   
+   background-image: url('new-bg.jpg');/*image from google */
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-family: Helvetica;
+   
+}
+
+#main{
+	padding-top: 4%;
+	color: white;
+	text-align: center;
+	margin: 60px auto;
+}
+article{
+	font-size: 2rem;
+	letter-spacing: 1px;
+}
+
+p{
+	font-size: 1.2rem;
+}
+.section-header{
+	font-size: 3rem;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+ul{
+	padding: 10px 0px;
+	list-style-type: none;
+	letter-spacing: 1px;
+	color: white;
+	text-align: center;
+}
+#other {
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+.skill{
+	table-layout:auto;
+	width: 100%;
+	padding: 20px 0px;
+	text-align: left;
+	border: black;
+	color: white;
+}
+tr {
+  letter-spacing: 1px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+    font-size: 1.1rem;
+}
+
+.aside-header{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+/* the following 3 css selctors found on w3schools.com and modified as required*/
+input[type=text],input[type=number] select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgb(5, 82, 196);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(48, 119, 226);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0b20dc;
+}
+
+#con {
+	width: 50%;
+	padding-top: 2%;
+	margin-left: 30%;  
+	
+}
+.isize {
+	margin-right: 25%;
+	width:30px;
+	height: 30px;
+}
+#b:hover {
+	width:32px;
+	height: 32px;
+}
+#g:hover {
+	width:32px;
+	height: 32px;
+}
+#l:hover {
+	width:32px;
+	height: 32px;
+}
+#icon {
+	padding-top: 70px;
+	margin-left:30%; 
+}
+td {
+	padding-lef: 4%;
+}
+
+#scholor {
+	padding-top: 7%;
+	color: white;
+}
+#scl{
+	padding-top: 7%;
+	text-align: center;
+	color: white;
+}
