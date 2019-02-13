@@ -33,10 +33,10 @@ function calculateGPA() {
     let text = ''
     let finalGPA = calculateFinalGPA(totalGpa, semesters)
     if (finalGPA >= 3.3) {
-        text = "You availed scholarship"
+        text = "You earn scholarship"
     }
     else {
-        text = "You need minimum of 3.3 GPA to avail scholar ship"
+        text = "You need minimum of 3.3 GPA to earn scholarship"
     }
 
     $('.output').html(`Your Total GPA average for <span class="no-of-semesters">${semesters}</span> semesters is <span class="calculated-gpa">${finalGPA}</span>
