@@ -33,7 +33,7 @@ function calculateGPA() {
     let text = ''
     let finalGPA = calculateFinalGPA(totalGpa, semesters)
     if (finalGPA >= 3.3) {
-        text = "You earn scholarship"
+        text = "You earned scholarship"
     }
     else {
         text = "You need minimum of 3.3 GPA to earn scholarship"
